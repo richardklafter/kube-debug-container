@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kube-debug-container
+  namespace: default
+spec:
+  containers:
+  - name: kube-debug-container
+    image: freethenation/kube-debug-container:latest
+  restartPolicy: Always
