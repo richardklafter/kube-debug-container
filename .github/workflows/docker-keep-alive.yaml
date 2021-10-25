@@ -1,3 +1,4 @@
+# Apparently docker hub will delete my image if I don't pull it often enough. Lets solve that.
 name: keep-alive
 
 on:
